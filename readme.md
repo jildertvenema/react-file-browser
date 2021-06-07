@@ -8,6 +8,7 @@ A reusable react component for browsing files in the web browser.
 <br />
 
 # API
+Click <a href="https://github.com/jildertvenema/react-file-browser-example">here</a> for a example project.
 ## Properties
 | Name | Type | Description | Example |
 |-|-|-|-|
