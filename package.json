@@ -1,5 +1,5 @@
 {
-  "name": "react-file-browser",
+  "name": "react-file-browser-component",
   "version": "1.0.0",
   "description": "A react file browser component",
   "main": "lib/index.js",
