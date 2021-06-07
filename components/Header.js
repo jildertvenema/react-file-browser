@@ -19,12 +19,12 @@ const StyledHeader = styled(Grid)`
 const Header = ({ currentDirectory, onPreviousClick, onNextClick, nextEnabled, previousEnabled }) => {
     return <StyledHeader container alignItems="center" direction="row" justify="flex-start" >
         <Grid item xs style={{ marginLeft: 8 }}>
-            <IconButton onClick={onPreviousClick} disabled={!previousEnabled}>
+            <IconButton onClick={!previousEnabled && onPreviousClick} disabled={!previousEnabled}>
                 <ArrowBackIosIcon />
             </IconButton>
         </Grid>
         <Grid item xs>
-            <IconButton onClick={onNextClick} disabled={!nextEnabled}>
+            <IconButton onClick={!nextEnabled && onNextClick} disabled={!nextEnabled}>
                 <ArrowForwardIosIcon />
             </IconButton>
         </Grid>
